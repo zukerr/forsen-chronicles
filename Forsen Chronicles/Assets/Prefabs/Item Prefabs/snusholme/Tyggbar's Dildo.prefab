@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1689604813354186}
+  m_IsPrefabAsset: 1
+--- !u!1 &1689604813354186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4033985503978322}
+  - component: {fileID: 114518250283591836}
+  m_Layer: 0
+  m_Name: Tyggbar's Dildo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4033985503978322
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689604813354186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.64879, y: -57.865566, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114518250283591836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689604813354186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e78b2f77955ee409e8d850e98b09d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 14
+  itName: Tyggbar's Dildo
+  itProps: The tool of woman's joy. Can be used as a weapon.
+  itCost: 'Sell cost: 136g'
+  itCostValue: 136
+  type: 3
+  equipable: 1
+  two_handed_weapon: 1
+  spriteNeutral: {fileID: 21300000, guid: f9b4e5af762a6b84393331d0ca5e3759, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 77ef7b6a0f114884eb8b9408aafd912a, type: 3}
+  maxSize: 1
+  levelRequirement: 2
+  wType: 0
+  attack_min: 8
+  attack_max: 10
+  armor: 0
+  magic_resistance: 0
+  inteligence: 0
+  strength: 30
+  agility: 0
+  gay_percentage: 0
+  vitality: 0
+  DontRandomizeStats: 0

@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1837789344485006}
+  m_IsPrefabAsset: 1
+--- !u!1 &1837789344485006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4102346002216030}
+  - component: {fileID: 212956514959340914}
+  - component: {fileID: 95430454239207294}
+  - component: {fileID: 61021321479288844}
+  - component: {fileID: 114305833170194156}
+  - component: {fileID: 114656819490003248}
+  - component: {fileID: 50966624272079766}
+  - component: {fileID: 114461002259373478}
+  - component: {fileID: 114264514936819586}
+  m_Layer: 0
+  m_Name: wingman
+  m_TagString: target
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4102346002216030
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9416664, y: -1, z: 0}
+  m_LocalScale: {x: 0.3039091, y: 0.3039091, z: 0.43762916}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50966624272079766
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &61021321479288844
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0007648468, y: 0.032343864}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.6, y: 6.02}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.7029705, y: 5.3434954}
+  m_EdgeRadius: 0
+--- !u!95 &95430454239207294
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c1b7068ccf32c104696cf5be7d5695a7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114264514936819586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a313b0e609f2a046a7da501a79fcfbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trueName: Winged Charge
+  mana_cost: 0
+  damage: 50
+  Caster: {fileID: 0}
+  my_targets: 0
+  anim: {fileID: 0}
+  cost_str: 
+  ability_desc: 
+  helper: 0
+--- !u!114 &114305833170194156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d4385f5bcd4954d9193513e62361bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  exp: 0
+  max_exp: 0
+  health: 30
+  max_health: 30
+  mana: 20
+  max_mana: 20
+  mana_regen: 2
+  baseInt: 0
+  inteligence: 0
+  baseStr: 0
+  strength: 0
+  baseAgi: 0
+  agility: 0
+  baseGay: 30
+  gay_percentage: 0
+  baseVit: 0
+  vitality: 0
+  myWeaponType: 1
+  baseAttack_min: 0
+  attack_min: 0
+  baseAttack_max: 1
+  attack_max: 0
+  identifier: 
+  IsDead: 0
+  prev_hp: 30
+  hp_change: 0
+  hp_change_str: 
+  baseArmor: 2
+  armor: 0
+  baseMres: 2
+  magic_resistance: 0
+  unitType: 4
+  friendly: 0
+  animat: {fileID: 0}
+  text1: {fileID: 0}
+--- !u!114 &114461002259373478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b688c5ae3c9b324b8a738c6c3cf230c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trueName: Smoke Bomb
+  mana_cost: 10
+  damage: 60
+  Caster: {fileID: 0}
+  my_targets: 0
+  anim: {fileID: 0}
+  cost_str: 
+  ability_desc: 
+  smokeBombPrefab: {fileID: 1905469886127672, guid: 3fb157e657352c74abac9dd412f531c5,
+    type: 2}
+  target: {fileID: 0}
+  helper: 0
+--- !u!114 &114656819490003248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364b7bd96724ba44ca44c2e53837a365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  howManyItems: 2
+  item1: {fileID: 1426434087581156, guid: 20850176aeaf2194591ed7dd0c934a98, type: 2}
+  item2: {fileID: 1160781193024100, guid: 2e6423a7dbcf46a40b245df6e29f8ffc, type: 2}
+  item3: {fileID: 0}
+  item4: {fileID: 0}
+  item5: {fileID: 0}
+  item6: {fileID: 0}
+  item7: {fileID: 0}
+  item8: {fileID: 0}
+  item9: {fileID: 0}
+  item10: {fileID: 0}
+  chanceForItem1: 30
+  chanceForItem2: 15
+  chanceForItem3: 0
+  chanceForItem4: 0
+  chanceForItem5: 0
+  chanceForItem6: 0
+  chanceForItem7: 0
+  chanceForItem8: 0
+  chanceForItem9: 0
+  chanceForItem10: 0
+--- !u!212 &212956514959340914
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837789344485006}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: cb9cbf185ce616d45a673a95672db7d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

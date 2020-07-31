@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1613462867007166}
+  m_IsPrefabAsset: 1
+--- !u!1 &1613462867007166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4673699175505512}
+  - component: {fileID: 114538636175993788}
+  m_Layer: 0
+  m_Name: Useless Pro Tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4673699175505512
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1613462867007166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.64879, y: -57.865566, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114538636175993788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1613462867007166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9140cd194051084d858ca64395a4b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 15
+  itName: Useless Pro Tip
+  itProps: Pro tip from one of the twitch experts. At least they paid for it.
+  itCost: 'Sell cost: 3$'
+  itCostValue: 3
+  type: 0
+  equipable: 0
+  two_handed_weapon: 0
+  spriteNeutral: {fileID: 21300000, guid: b5e51e24ec18b8548bf3e89d11e58a0e, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 2aec98853c7a76241a0f12e765f09d43, type: 3}
+  maxSize: 10
