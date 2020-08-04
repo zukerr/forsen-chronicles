@@ -5,3 +5,5 @@ One of my first finished projects(**in 2017**), during which I learned the basic
 
 The inside jokes in this game won't be funny for anyone not familiar to Forsens stream.  
 I did not intend to offend anybody with the game, so please take it with a grain of salt.
+
+Playable [release](https://github.com/zukerr/forsen-chronicles/releases/tag/v1.0) available for download.
